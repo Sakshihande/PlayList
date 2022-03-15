@@ -16,9 +16,9 @@ public class Album {
 		this.artist=artist;
 		this.songs= new ArrayList<Song>();
 	}
-	public Album() { 
 	
-	}
+	
+	
 	public Song findSong(String title) {
 		for(Song checkedSong:songs) {
 			if(checkedSong.getTitle().equals(title))
